@@ -6,9 +6,9 @@ In neural networks, Convolutional neural network (ConvNets or CNNs) is one of th
 Convolution is the first layer to extract features from an input image. Convolution preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs such as image matrix and a filter or kernel.Then the convolution of 5 x 5 image matrix multiplies with 3 x 3 filter matrix which is called “Feature Map” Convolution of an image with different filters can perform operations such as edge detection, blur and sharpen by applying filters
 
 # Working of Model
- Design a model for predict the 4 major type of dataset in the world of image classifcation that is CIFAR10/100 , MINST  with optimize accuracy and better result.
+Design a model for predict the 4 major type of dataset in the world of image classifcation that is CIFAR10/100 , MNIST  with optimize accuracy and better result.
  
- Provide input image into convolution layer
+Provide input image into convolution layer
 Choose parameters, apply filters with strides, padding if requires. 
 Perform convolution on the image and apply ReLU activation to the matrix.
 Perform pooling to reduce dimensionality size
